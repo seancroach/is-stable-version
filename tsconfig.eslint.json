@@ -1,0 +1,4 @@
+{
+  "extends": "@seancroach/tsconfig",
+  "include": ["source", "test"]
+}
