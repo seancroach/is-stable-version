@@ -13,7 +13,7 @@
     "ava": "ava --fail-fast",
     "build": "tsc -p source",
     "clean": "rm -rf build",
-    "eslint": "eslint \"**/*.ts\"",
+    "eslint": "eslint source test",
     "format": "npm run prettier:write",
     "lint": "npm run prettier:check && npm run eslint",
     "prepare": "npm run build",
